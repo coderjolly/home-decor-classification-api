@@ -5,7 +5,7 @@ import numpy as np
 def classificationModel(path):
     
     image_size = (180, 180)
-    loaded_model = tf.keras.models.load_model('model/save_at_24.h5')
+    loaded_model = tf.keras.models.load_model('model/save_at_43.h5')
     
     img = keras.preprocessing.image.load_img(path, target_size=image_size)
     
