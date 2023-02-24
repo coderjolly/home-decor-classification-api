@@ -3,9 +3,9 @@
  - This repository contains a rudimentary level flask API that is dockerized to return an answer whether the image uploaded is a bed, chair or sofa using a saved model with best accuracy.
  - Keras saves models in this format as it can easily store the weights and model configuration in a single file so that it can be used for prediction further. 
  
- - [ ] The model for classification on the dataset is enclosed under _____.ipnb and is saved at best configuration in an h5 file format.
- - [ ] An API access model is built using Flask that takes image as an input and returns the predicted label or category as output.
- - [ ] A dockerfile has been created which in turn creates a docker image for the above mentioned task.
+ - [x] The model for classification on the dataset is enclosed under image_classification.ipnb and is saved at best configuration in an h5 file format.
+ - [x] An API access model is built using Flask that takes image as an input and returns the predicted label or category as output.
+ - [x] A dockerfile has been created which in turn creates a docker image for the above mentioned task.
 
 ## Steps to Run
 
