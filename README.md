@@ -1,4 +1,4 @@
-## Object Classification API
+## Home Decour Classification API
 
  - This repository contains a rudimentary level flask API that is dockerized to return an answer whether the image uploaded is a bed, chair or sofa using a saved model with best accuracy.
  - Keras saves models in this format as it can easily store the weights and model configuration in a single file so that it can be used for prediction further. 
